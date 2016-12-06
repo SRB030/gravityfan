@@ -1,7 +1,9 @@
 <?php
-require 'header.html';
+require 'header.php'
 ?>
-<div class="content">
+<div class="conteiner">
+    <div class="jumbotron text-center">
+        <div class="media">
   <h3>Секреты Гравити Фолз - Серия 1, Сезон 1</h3>
   <iframe width="460" height="315" src="https://www.youtube.com/embed/1YfnwVXxm8o" frameborder="0" allowfullscreen></iframe>
   <h3>Легенда о Живогрызе - Серия 2, Сезон 1</h3>
@@ -14,7 +16,7 @@ require 'header.html';
   <iframe width="460" height="315" src="https://www.youtube.com/embed/_WpXxMXIrRE" frameborder="0" allowfullscreen></iframe>
   <h3>Диппер становится мужиком - Серия 6, Сезон 1</h3>
   <iframe width="460" height="315" src="https://www.youtube.com/embed/VQ4D2Ww7B2I" frameborder="0" allowfullscreen></iframe>
-  <h3> Диппер и атака клонов - Серия 7, Сезон 1</h3>
+  <h3>Диппер и атака клонов - Серия 7, Сезон 1</h3>
   <iframe width="460" height="315" src="https://www.youtube.com/embed/i1UWhDHg_BE" frameborder="0" allowfullscreen></iframe>
   <h3>Несерьёзное сокровище - Серия 8, Сезон 1</h3>
   <iframe width="460" height="315" src="https://www.youtube.com/embed/Kpuy913qhg0" frameborder="0" allowfullscreen></iframe>
@@ -42,7 +44,9 @@ require 'header.html';
   <iframe width="460" height="315" src="https://www.youtube.com/embed/2fiKcCD7zpM" frameborder="0" allowfullscreen></iframe>
   <h3>Восход Гедеона - Серия 20, Сезон 1</h3>
   <iframe width="460" height="315" src="https://www.youtube.com/embed/eM7z_Zf4mqM" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
 </div>
 <?php
-require 'footer.html';
+require 'footer.php';
 ?>

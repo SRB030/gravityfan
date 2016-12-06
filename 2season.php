@@ -1,7 +1,9 @@
 <?php
-require 'header.html';
+require 'header.php';
 ?>
-<div class="content2">
+<div class="conteiner">
+    <div class="jumbotron text-center">
+        <div class="media">
   <h3>Зомби-караоке - Серия 1, Сезон 2</h3>
   <iframe width="460" height="315" src="https://www.youtube.com/embed/uKjjDctxD6w" frameborder="0" allowfullscreen></iframe>
   <h3>В бункере - Серия 2, Сезон 2</h3>
@@ -44,7 +46,9 @@ require 'header.html';
   <iframe width="460" height="315" src="https://www.youtube.com/embed/nN1UmqbM90A" frameborder="0" allowfullscreen></iframe>
   <h3>Странногеддон: где-то в лесах - Серия 21, Сезон 2</h3>
   <iframe width="460" height="315" src="https://www.youtube.com/embed/vbSQtpYOMyc" frameborder="0" allowfullscreen></iframe>
+        </div>
+        </div>
 </div>
 <?php
-require 'footer.html';
+require 'footer.php';
 ?>

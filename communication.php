@@ -1,7 +1,8 @@
 <?php
-require 'header.html';
+require 'header.php';
 ?>
-<div class="communication">
+<div class="container">
+      <div class="jumbotron text-center">
   <form id="form">
     <h4>Email:</h4>
     <input type="email" id="email"  required="required"/><br/>
@@ -11,20 +12,10 @@ require 'header.html';
     <textarea id="masseg" required="required"></textarea><br/>
     <button>Отправить</button>
   </form>
+    </div>
 </div>
-<?php
-$mail = 'i.pershin.01@mail.ru';
-
- $email = trim($_POST['mail']);
- $subject = trim($_POST['subject']);
- $masseg = trim($_POST['masseg']);
-
-   $godon = "email:$email \nТема:$subject \nсообщение:$masseg";
-
-mail($mail,$godon, "Content-type: text/plain; charset=\"utf-8\"\n From:$mail");
-?>
 <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
 <script src="ajax.js"></script>
 <?php
-require 'footer.html';
+require 'footer.php';
 ?>
