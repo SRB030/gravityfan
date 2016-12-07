@@ -1,7 +1,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="css/js/bootstrap.min.js"></script>
-        <div class="navbar-fixed-bottom row-fluid">
-            <div class="container">
+                 <div class="navbar-bottom">
+                     <div class="container-fluid">
         <p class="text-muted text-info">&#169;ГравитиФан</p>
 <!--LiveInternet counter--><script type="text/javascript"><!--
 document.write("<a href='//www.liveinternet.ru/click' "+
@@ -14,7 +14,7 @@ screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
 " часа, посетителей за 24 часа и за сегодня' "+
 "border='0' width='88' height='31'><\/a>")
 //--></script><!--/LiveInternet-->
+                     </div>
             </div>
-      </div>
  </body>
 </html>

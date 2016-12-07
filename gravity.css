@@ -1,5 +1,27 @@
-
-.jumbotron{
-    border: 1px solid #eee;
+.navbar-default {
+    background-color: #00BFFF;
     border-radius: 5px;
+    border-color: #00BFFF;
+}
+body{
+    font-family: 'Neucha', cursive;
+    font-size: 17px;
+    line-height: 1.42857143;
+    color: #aa0dab;
+    background-color: #fff;
+}
+.text{
+    margin-top: 5%;
+    text-align: center;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #aa0dab;
+}
+.navbar-default .navbar-brand {
+    color: #aa0dab;
+}
+.navbar-bottom {
+     border-radius: 5px;
+    border-color: #00BFFF;
+   background: #00BFFF;
 }
